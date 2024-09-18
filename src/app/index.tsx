@@ -13,6 +13,9 @@ import ExternalStyling from "../components/ExternalStyling";
 import StylingChallange_01 from "../components/StylingChallange_01";
 import StylingChallange_02 from "../components/StylingChallange_02";
 import StylingChallange_03 from "../components/StylingChallange_03";
+import ListData from "../components/ListData";
+import ArrayOfObject from "../components/ArrayOfObject";
+import ListChalange from "../components/ListChalange";
 
 const Index = () => {
   return (
@@ -31,7 +34,10 @@ const Index = () => {
       {/* <ExternalStyling /> */}
       {/* <StylingChallange_01 /> */}
       {/* <StylingChallange_02 /> */}
-      <StylingChallange_03 />
+      {/* <StylingChallange_03 /> */}
+      {/* <ListData />
+      <ArrayOfObject /> */}
+      <ListChalange />
     </View>
   );
 };

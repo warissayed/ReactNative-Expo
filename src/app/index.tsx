@@ -17,6 +17,8 @@ import ListData from "../components/ListData";
 import ArrayOfObject from "../components/ArrayOfObject";
 import ListChalange from "../components/ListChalange";
 import ParebtComponent from "../components/ParebtComponent";
+import ConditionalRendering from "../components/ConditionalRendering";
+import ANDOprator from "../components/ANDOprator";
 
 const Index = () => {
   return (
@@ -39,7 +41,9 @@ const Index = () => {
       {/* <ListData />
       <ArrayOfObject /> */}
       {/* <ListChalange /> */}
-      <ParebtComponent />
+      {/* <ParebtComponent /> */}
+      <ConditionalRendering />
+      {/* <ANDOprator /> */}
     </View>
   );
 };

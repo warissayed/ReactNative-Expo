@@ -16,6 +16,7 @@ import StylingChallange_03 from "../components/StylingChallange_03";
 import ListData from "../components/ListData";
 import ArrayOfObject from "../components/ArrayOfObject";
 import ListChalange from "../components/ListChalange";
+import ParebtComponent from "../components/ParebtComponent";
 
 const Index = () => {
   return (
@@ -37,7 +38,8 @@ const Index = () => {
       {/* <StylingChallange_03 /> */}
       {/* <ListData />
       <ArrayOfObject /> */}
-      <ListChalange />
+      {/* <ListChalange /> */}
+      <ParebtComponent />
     </View>
   );
 };

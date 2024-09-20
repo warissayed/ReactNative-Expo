@@ -19,6 +19,8 @@ import ListChalange from "../components/ListChalange";
 import ParebtComponent from "../components/ParebtComponent";
 import ConditionalRendering from "../components/ConditionalRendering";
 import ANDOprator from "../components/ANDOprator";
+import UseState from "../components/UseState";
+import AddingFriends from "../components/AddingFriends";
 
 const Index = () => {
   return (
@@ -44,6 +46,8 @@ const Index = () => {
       {/* <ParebtComponent /> */}
       <ConditionalRendering />
       {/* <ANDOprator /> */}
+      {/* <UseState /> */}
+      <AddingFriends />
     </View>
   );
 };

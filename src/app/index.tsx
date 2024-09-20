@@ -21,6 +21,7 @@ import ConditionalRendering from "../components/ConditionalRendering";
 import ANDOprator from "../components/ANDOprator";
 import UseState from "../components/UseState";
 import AddingFriends from "../components/AddingFriends";
+import UpdateObject from "../components/UpdateObject";
 
 const Index = () => {
   return (
@@ -44,10 +45,11 @@ const Index = () => {
       <ArrayOfObject /> */}
       {/* <ListChalange /> */}
       {/* <ParebtComponent /> */}
-      <ConditionalRendering />
+      {/* <ConditionalRendering /> */}
       {/* <ANDOprator /> */}
       {/* <UseState /> */}
-      <AddingFriends />
+      {/* <AddingFriends /> */}
+      <UpdateObject />
     </View>
   );
 };

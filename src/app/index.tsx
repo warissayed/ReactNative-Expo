@@ -22,6 +22,10 @@ import ANDOprator from "../components/ANDOprator";
 import UseState from "../components/UseState";
 import AddingFriends from "../components/AddingFriends";
 import UpdateObject from "../components/UpdateObject";
+import SharingState from "../components/SharingState/SharingState";
+import OnOFFToggle from "../components/OnOFFToggle";
+import WeatherApp from "../components/WeatherApp";
+import BgColorCHanger from "../components/BgColorCHanger";
 
 const Index = () => {
   return (
@@ -49,7 +53,11 @@ const Index = () => {
       {/* <ANDOprator /> */}
       {/* <UseState /> */}
       {/* <AddingFriends /> */}
-      <UpdateObject />
+      {/* <UpdateObject /> */}
+      {/* <SharingState /> */}
+      {/* <OnOFFToggle /> */}
+      {/* <WeatherApp /> */}
+      <BgColorCHanger />
     </View>
   );
 };

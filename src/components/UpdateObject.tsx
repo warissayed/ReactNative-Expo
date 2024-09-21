@@ -12,7 +12,7 @@ const UpdateObject = () => {
       <Text>{movie.Rating}</Text>
       <Button
         title="Update"
-        onPress={() => SetMovie({ ...movie, Rating: 5 })}
+        onPress={() => SetMovie({ ...movie, Rating: 4 })}
       />
     </View>
   );
